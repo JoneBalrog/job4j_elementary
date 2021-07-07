@@ -4,8 +4,8 @@ public class SqArea {
     public static double square(double p, double k) {
         // return Math.pow((p / (2 * (k + 1))), 2) * k;  вариант в одну строчку
         double h =  p / (2 * (k + 1));
-        double L = h * k;
-        return L*h;
+        double l = h * k;
+        return l*h;
     }
     public static void main(String[] args) {
         double result1 = SqArea.square(6, 2);
